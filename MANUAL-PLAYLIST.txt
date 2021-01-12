@@ -1,0 +1,1 @@
+youtube-dl --newline --playlist-start $PSTART --playlist-end $PEND --console-title -i -o "../YouTube-dl/$PFOLDER/%(playlist_index)2d - %(title)s.%(ext)s" -F --ignore-config --hls-prefer-native --add-metadata "$PLINK"
