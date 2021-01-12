@@ -1,0 +1,1 @@
+youtube-dl --newline --console-title -i -o "../YouTube-dl/$VFOLDER/%(title)s.%(ext)s" -F --ignore-config --hls-prefer-native --add-metadata "$VLINK"
